@@ -100,6 +100,8 @@ void opentop(){
    rotate(1);
    Serial.println("opening");
    }
+  
+  delay(30000);     
 }
 
 
