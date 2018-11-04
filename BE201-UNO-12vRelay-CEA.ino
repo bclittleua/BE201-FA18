@@ -121,7 +121,8 @@ void closetop(){
 }
 
 
-//MAIN STEPPER FUNCTION BELOW 
+//MAIN STEPPER FUNCTION BELOW
+//borrowed from this guy: https://github.com/bdargham
 void rotate(float rotations) {
   rotate_steps(rotations * STEPS_PER_ROTATION);
 }
