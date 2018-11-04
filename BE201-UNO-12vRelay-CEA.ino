@@ -87,7 +87,9 @@ void loop(){
   }
   else{
     closetop();
-  }
+  }  
+  
+  delay(30000);     
 }
 
 //FLIP LID WITH STEPPER MOTOR BASED ON TEMP
@@ -100,8 +102,6 @@ void opentop(){
    rotate(1);
    Serial.println("opening");
    }
-  
-  delay(30000);     
 }
 
 
