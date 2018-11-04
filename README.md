@@ -23,3 +23,5 @@ Wire as indicated in the .ino, but for the tl;dr:
 - moisture sensor to analog 1
 
 Splice positive/hot wire of device through the relay, use normally open (NO) and COMmon so appliances will run if sensors/arduino go offline. OR, NC+COM if you want everything off when/if the arduino fails.
+
+Main Stepper Functions borrowed from this guy: https://github.com/bdargham
