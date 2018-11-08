@@ -1,6 +1,7 @@
 # BE201-FA18
 
 This .ino utilizes an Arduino Uno and a 4chan 5v relay.
+Requires the included custom DHT.zip library.
 
 It uses these sensors and components:
 - dht11 temp/humidity sensor
